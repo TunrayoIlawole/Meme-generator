@@ -38,7 +38,7 @@ class App extends Component {
 			return <div>No result found</div>
 		}
 
-		if(this.searchName.called) {
+		if(this.searchName.called && this.state.memes2.length > 0) {
 			return <MemesList memes = {this.state.memes2} />
 		}
 
