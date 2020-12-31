@@ -22,6 +22,7 @@ class FilterBar extends Component {
                         <label>Meme search</label>
                         <input
                             type = "text"
+                            placeholder = "Search for a meme by its keyword"
                             value = {this.state.term}
                             onChange = {(e) => this.setState({
                                 term: e.target.value.toLowerCase()
