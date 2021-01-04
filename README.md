@@ -1,5 +1,5 @@
 # Meme-generator
-A simple React app that displays a list of memes from the api http://api.imgflip.com/get-memes, with a search-and-filter functionality.
+A simple React app that displays a list of memes from the api https://api.imgflip.com/get_memes, with a search-and-filter functionality.
 
 # Getting Started with Create React App
 
